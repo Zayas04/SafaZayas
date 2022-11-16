@@ -1,0 +1,147 @@
+body{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1.6fr 1.3fr 0.1fr;
+  grid-template-rows: 1fr 0.9fr 1.1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "foto color color empezar ."
+    "superglobo superglobo superglobo tuglovo tuglovo"
+    "superglobo superglobo superglobo tuglovo tuglovo"
+    "nav resto resto tuglovo tuglovo"
+    "nav resto resto tuglovo tuglovo"
+    "nav resto resto tuglovo tuglovo";
+}
+
+.foto { grid-area: foto; }
+
+.color { grid-area: color; }
+
+.empezar { grid-area: empezar; }
+
+.nav { grid-area: nav; }
+
+.superglobo { grid-area: superglobo; }
+
+.resto { grid-area: resto; }
+
+.tuglovo { grid-area: tuglovo; }
+
+
+.foto > img{
+  width: 250px;
+  margin-top: 2%;
+  margin-left: 4%;
+}  
+input[type="button"]{
+  width: 100px;
+  border-radius: 11px;
+  padding: 1%;
+  margin-right: 20%;
+  text-align: center; 
+  margin-top: 17%;
+  background-color: aqua;
+  border: 0;
+}
+.foto{
+  background-color: darksalmon;
+}
+.empezar{
+  background-color: darksalmon;
+}
+.color{
+  background-color: darksalmon;
+}
+.color > a > svg{
+  margin-left: 35%;
+  margin-top: 4%;
+}
+table{
+  border-bottom: 1px solid rgb(151, 147, 147);
+  margin-left: 6%;
+}
+h3{
+  margin-left: 6%;
+}
+.superglobo{
+  margin-left: 2%;
+  margin-right: 30%;
+  margin-top: 2%;
+  background-color: bisque;
+}
+.gratis{
+  position: absolute;
+  top: 202px;
+  left: 100px;
+  background-color: gold;
+  font-weight: bold;
+}
+.superglobo > .prime{
+  position: absolute;
+  top: 214px;
+  left: 170px;
+}
+.superglobo > .prime2{
+  position: absolute;
+  top: 200px;
+  left: 197px;
+  background-color: bisque;
+}
+.superglobo > .dedo{
+  position: absolute;
+  top: 212px;
+  left: 250px;
+}
+.superglobo > .porcentaje{
+  position: absolute;
+  top: 200px;
+  left: 275px;
+  background-color: bisque;
+}
+.superglobo > .bueno{
+  position: absolute;
+  top: 200px;
+  left: 310px;
+  background-color: aquamarine;
+}
+.superglobo > .texto{
+  position: absolute;
+  top: 230px;
+  left: 30px;
+  background-color: bisque;
+}
+.superglobo{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.resto{
+  margin-top: 2%;
+}
+input[type="search"]{
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5%;
+}
+span{
+  color: blue;
+  font-weight: bold;
+}
+img{
+  width: 18%;
+}
+.tuglovo > h1{
+  text-align: center;
+  margin-top: 15%;
+}
+.tuglovo > img{
+  margin-left: 43%;
+}
+.tuglovo > p{
+  text-align: center;
+}

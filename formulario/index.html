@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            background-color: rgb(183, 241, 241);
+        }
+        form{
+            margin-left: 500px;
+        }
+        h1{
+            text-align: center;
+        }
+        input{
+            background-color: white;
+        }
+        select, textarea{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>MI HOTEL - Reserva online </h1>
+    <form action="">
+        <label for="name">Nombre:</label> <input type="text"> <br> <br>
+
+        <label for="name">Apellidos:</label> <input type="text"> <br> <br>
+
+        <label for="name">Telefono:</label> <input type="text"> <br> <br>
+
+        <label for="name">eMail:</label> <input type="text"> <br> <br>
+
+        <label for="name">Numero de noches:</label> <input type="text"> <br> <br>
+
+        <label for="name">Fecha de entrada:</label>
+        <label>Dia:</label><select name="Dia">
+            <option value="1">1</option>
+            <option value="#">2</option>
+        </select>
+        <label>Mes:</label>
+        <select name="Mes">
+            <option value="Enero"> Enero</option>
+            <option value="#">Febrero</option>
+        </select> <br> <br>
+
+        <label for="name">Tipo de habitación:</label> <input type="radio"> <label for="name"> Simple</label>
+        <input type="radio"> <label for="name">Doble</label> <input type="radio"> <label for="name">Matrimonio</label>
+        <br>
+        <br>
+
+        <label for="name">Extras:</label> <input type="checkbox"> <label for="name">Desayuno</label> <input
+            type="checkbox">
+        <label for="name">Comida</label> <input type="checkbox"> <label for="name">Cena</label> <input type="checkbox">
+        <label for="name">Cama Supletoria</label> <br> <br>
+
+        <label for="name">Comentarios:</label> <br> <br> <textarea name="" id="" cols="30" rows="4"></textarea> <br>
+        <br>
+
+        <input type="submit"> <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>

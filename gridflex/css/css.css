@@ -1,0 +1,143 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto header header empezar"
+      ". super super-glovo ."
+      "nav resto resto resto"
+      "nav resto resto resto"
+      "nav resto resto resto";
+  }
+  
+  .foto { grid-area: foto; }
+  
+  .header { grid-area: header; }
+  
+  .empezar { grid-area: empezar; }
+  
+  .super { grid-area: super; }
+  
+  .super-glovo { grid-area: super-glovo; }
+  
+  .nav { grid-area: nav; }
+  
+  .resto { grid-area: resto; }
+  
+.foto > img{
+    width: 250px;
+    display: block;
+    margin-top: 7%;
+    margin-left: 12%;
+}  
+input[type="search"]{
+    width: 500px;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 9%;
+    display: flex;
+    border: 0;
+}
+input[type="button"]{
+    width: 100px;
+    border-radius: 11px;
+    padding: 1%;
+    margin-right: 20%;
+    text-align: center; 
+    margin-top: 17%;
+    background-color: aqua;
+    border: 0;
+}
+.header{
+    background-color: rgb(236, 204, 124);
+}
+.foto{
+    background-color: rgb(236, 204, 124);
+}
+.empezar{
+    background-color:rgb(236, 204, 124) ;
+}
+.super > a > img{
+    width: 75px;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.super > p{
+    text-align: center;
+}
+.super-glovo > img{
+    width: 75px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.super{
+    border-bottom: 2px solid black;
+}
+.super-glovo{
+    border-bottom: 2px solid black;
+}
+.nav{
+    margin-left: 10%;
+}
+table{
+    border-bottom: 1px solid rgb(151, 147, 147);
+}
+th > img{
+    width: 20px;
+}
+h1{
+    margin-top: 4%;
+}
+.resto > p{
+    margin-top: 1%;
+    text-decoration: none;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+}
+.resto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-izquierda{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrados{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.texto-derecha{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centradoss{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: black    ;
+}
+em{
+    text-decoration: none;
+    margin-right: 80%;
+}

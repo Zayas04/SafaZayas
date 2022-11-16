@@ -1,0 +1,72 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.1fr 1.4fr;
+    grid-template-rows: 0.7fr 1.3fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto nav nav"
+        "foto-grande foto-grande demas"
+        "foto-grande foto-grande demas";
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.foto-grande {
+    grid-area: foto-grande;
+}
+
+.demas {
+    grid-area: demas;
+}
+
+
+
+
+table {
+    background-color: aqua;
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+nav {
+    display: inline-block;
+    padding: 35px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.img2 {
+    margin-left: 70px;
+    margin-top: 35px;
+    border: 10px solid aqua;
+    border-radius: 10px;
+}
+
+p {
+    color: blue;
+    border: 4px solid aqua;
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 20px;
+
+
+}
+
+.demas {
+    margin-right: 50px;
+    padding-right: 50px;
+
+}
+
+.foto {
+    border: 5px solid aqua;
+    border-radius: 15px;
+}
