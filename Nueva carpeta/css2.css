@@ -1,0 +1,15 @@
+
+li{
+    display: inline;
+    padding: 2%;
+    background-color: bisque;
+}
+ul{
+    padding-top: 10%;
+}
+.ordenar li{
+    background-color: azure;
+}
+.ordenar{
+    padding: 2%;
+}

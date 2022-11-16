@@ -1,0 +1,186 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.6fr 1.7fr 1.7fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto botones botones"
+        "botones2 botones2 botones2"
+        "st padre twd"
+        "st padre twd"
+        "footer footer footer";
+}
+
+.foto {
+    grid-area: foto;
+}
+
+.botones {
+    grid-area: botones;
+}
+
+.botones2 {
+    grid-area: botones2;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.st {
+    grid-area: st;
+}
+
+.padre {
+    grid-area: padre;
+}
+
+.twd {
+    grid-area: twd;
+}
+
+input{
+    font-family: 'Francois One', sans-serif;    
+}
+
+.foto>img {
+    width: 200px;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.botones>input[type="search"] {
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.botones>input[type="button"] {
+    margin-left: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 20%;
+    padding: 5px;
+}
+
+.botones2>input[type="button"] {
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: white;
+}
+
+.st>img {
+    width: 300px;
+ 
+    margin-left: 14%;
+}
+
+.st {
+    width: 420px;
+    background-color: rgb(252, 229, 167);
+    margin-left: 5%;
+
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+.st>h2 {
+    margin-left: 30%;
+    font-family: 'Francois One', sans-serif;
+}
+
+.st>input {
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px;
+    width: 150px;
+    background-color: white;
+}
+
+.padre {
+    background-color: rgb(252, 229, 167);
+    width: 420px;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 2%;
+
+}
+
+.padre>input {
+    margin-left: 33%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px;
+    width: 150px;
+    background-color: white;
+}
+
+.padre>h2 {
+    margin-bottom: -100%;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Francois One', sans-serif;
+}
+
+.padre>img {
+    margin-left: 20%;
+    margin-top: 100%;
+    width: 250px;
+}
+
+.twd>h2 {
+    text-align: center;
+    margin-bottom: -100%;
+    padding-bottom: 5%;
+    font-family: 'Francois One', sans-serif;
+}
+
+.twd>img {
+    width: 285px;
+    margin-top: 100%;
+    margin-left: 20%;
+}
+
+.twd {
+    background-color: rgb(252, 229, 167);
+    width: 420px;
+    margin-left: 7%;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.twd>input {
+    margin-left: 36%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2px;
+    width: 150px;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.footer {
+    margin-top: 1%;
+    margin-left: 48%;
+}
+
+.botones2 {
+    background-color: rgb(248, 199, 107);
+    border-top: 2px solid black;
+}
+
+.foto,.botones {
+    background-color: rgb(248, 199, 107);
+    padding-bottom: 2%;
+}

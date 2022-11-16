@@ -1,0 +1,150 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.9fr 1.1fr;
+    grid-template-rows: 0.3fr 0.6fr 0.8fr 3.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto botones botones botones botones"
+      "botones-2 botones-2 botones-2 botones-2 botones-2"
+      ". . . . ordenar"
+      "peli peli1 peli2 peli3 peli4";
+  }
+  
+  .foto { grid-area: foto; }
+  
+  .botones { grid-area: botones; }
+  
+  .botones-2 { grid-area: botones-2; }
+  
+  .ordenar { grid-area: ordenar; }
+  
+  .peli { grid-area: peli; }
+  
+  .peli1 { grid-area: peli1; }
+  
+  .peli2 { grid-area: peli2; }
+  
+  .peli3 { grid-area: peli3; }
+  
+  .peli4 { grid-area: peli4; }
+
+.column {
+    width: 100%;
+  }
+  
+@media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+   th {
+        display: block;
+        text-align:center;
+   }
+   svg{
+        display: block;
+        text-align:center;
+   }
+}
+
+
+  
+table{
+    width: 200%;
+    height: 50px;
+}
+nav{
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+    margin-top: 4%;
+}
+img{
+    width: 95%;
+    margin-top: 15%;
+}
+.botones-2 th{
+    background-color: rgb(55, 151, 151);
+    overflow-x: auto;
+}
+.tabla{
+    width: 145%;
+    border-top: 2px solid black;
+    padding-top: 0%;
+}  
+.tabla1{
+    width: 100%;
+}
+.ordenar th{
+    background-color: coral;
+}
+.seg{
+    width: 98%;
+    height: 60%;
+}
+.peli{
+    text-align: center;
+    background-color: beige;
+}
+.baila{
+    width: 90%;
+    height: 60%;
+}
+.peli1{
+    text-align: center;
+    background-color: beige;
+}
+.black{
+    width: 90%;
+    height: 60%;
+}
+.peli2{
+    text-align: center;
+    background-color: beige;
+}
+.wakanda{
+    width: 95%;
+    height: 55%;
+    max-height: 55%;
+    max-width: 95%;
+}
+.peli3{
+    text-align: center;
+    background-color: beige;
+}
+.bonnie{
+    width: 80%;
+}
+.peli4{
+    text-align: center;
+    background-color: beige; 
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+@media screen and (min-width: 600px) {
+    /* Estilos para tablets vertical */
+ 
+}
+ 
+@media screen and (min-width: 960px) {
+    /* Estilos para tablets horizontal y PC */
+ 
+}
+  
